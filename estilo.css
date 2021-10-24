@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+    background-color: rgba(192, 192, 192, 0.226);
+}
+
+header{
+    background-color:  darkgreen;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-weight: 100;
+    padding: 15px 0px 150px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+main{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+main > section{
+    width: 100%;
+}
+.balanco{
+    margin-top: -100px;
+}
+main h2{
+    color: white;
+    font-weight: 100;
+    padding-left: 10px;
+}
+main > section > div{
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+main > section > div > h3{
+    padding: 10px 0px 15px 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+section div > p{
+    padding: 0px 0px 25px 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.total{
+    background-color: limegreen;
+}
+.total > p{
+    color: white;
+}
+.total > h3{
+    color: white;
+}
+
+#tab{
+    margin-left: 10px;   
+}
+#tab h2{
+    color: black;
+    font-weight: 500;
+}
+table{
+    margin-top: 10px;
+    width: 100%;
+    border-spacing: 0px 5px;
+}
+th{
+    text-align: left;
+    padding: 10px 10px;
+    opacity: 0.8;
+}
+thead tr{
+    background-color: white;
+    padding: 20px;
+}
+tbody tr{
+    background-color: white;
+    opacity: 0.7;
+}
+tbody tr:hover{
+    opacity: 0.5;
+    color: black;
+}
+tr > td{
+    padding: 10px 10px;
+}
+.despesa{
+    color: red;
+}
+.renda{
+    color: lime;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+footer > p{
+    padding: 20px 0px;
+    opacity: 0.5;
+}
