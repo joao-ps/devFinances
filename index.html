@@ -12,26 +12,28 @@
 </head>
 <body>
     <header>
-        <h1>dev.finance$</h1>
+        <h1 id="logo"><img id="logo" src="assets/logo.svg" alt="Logo da dev.finances"></h1>
     </header>
     <main>
         <section  class="balanco">
             <h2>Balanço</h2>
             <div class="entrada">
-                <h3>Entradas</h3>
+                <h3>Entradas <img src="assets/income.svg" alt="Entrada"></h3>
                 <p>R$ 5.000,00</p>
             </div>
 
             <div class="saidas">
-                <h3>Saidas</h3>
+                <h3>Saidas <img src="assets/expense.svg" alt="Saida"></h3>
                 <p>R$ 2.000,00</p>
             </div>
 
             <div class="total">
-                <h3>Total</h3>
+                <h3>Total <img src="assets/total.svg" alt="Total"></h3>
                 <p>R$ 3.000,00</p>
             </div>
         </section>
+
+        <a href="#">+ nova transação</a>
 
         <section id="tab">
             <h2>Transações</h2>
@@ -42,6 +44,7 @@
                         <th>Descrição</th>
                         <th>Valor</th>
                         <th>Data</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -49,16 +52,19 @@
                         <td>Luz</td>
                         <td class="despesa">-R$ 500,00</td>
                         <td>23/01/2021</td>
+                        <td><img src="assets/minus.svg" alt="menos"></td>
                     </tr>
                     <tr>
                         <td>Criação de Website</td>
                         <td class="renda">R$ 5.000,00</td>
                         <td>24/01/2021</td>
+                        <td><img src="assets/minus.svg" alt="menos"></td>
                     </tr>
                     <tr>
                         <td>Aluguel</td>
                         <td class="despesa">-R$ 1.500,00</td>
                         <td>26/01/2021</td>
+                        <td><img src="assets/minus.svg" alt="menos"></td>
                     </tr>
                 </tbody>
             </table>
