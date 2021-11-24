@@ -33,7 +33,39 @@
             </div>
         </section>
 
-        <a href="#">+ nova transação</a>
+        <a href="#" onclick="abrirModal()">+ nova transação</a>
+
+        <div id="modal">
+            <form action="">
+            <h2>Nova Transação</h2>
+               <div class="form-input">
+                   <label for="">
+                       Descrição
+                   </label>
+                   <input type="text" name="descricao" id="descricao" placeholder="Descrição">
+               </div> 
+
+               <div class="form-input">
+                <label for="">
+                    Valor
+                </label>
+                <input type="number" name="valor" id="valor" placeholder="0,00">
+                <p><small>Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small></p>
+            </div> 
+
+            <div class="form-input">
+                <label for="">
+                    data
+                </label>
+                <input type="date" name="data" id="data">
+            </div> 
+
+            <div class="form-button">
+                <button class="cancela" onclick="fecharModal()">Cancelar</button>
+                <button class="salvar">Salvar</button>
+            </div> 
+            </form>
+        </div>
 
         <section id="tab">
             <h2>Transações</h2>
@@ -74,5 +106,16 @@
     <footer>
         <p>Dev.finance$</p>
     </footer>
+
+    <script>
+       const modal = document.getElementById('modal');
+
+       function abrirModal(){
+            modal.style.visibility="visible"
+       }
+       function fecharModal(){
+            modal.style.visibility="hidden"
+       } 
+    </script>
 </body>
 </html>
